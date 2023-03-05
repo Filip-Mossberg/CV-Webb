@@ -17,3 +17,8 @@ main{
 .contact-title{
     margin: 20px;
 }
+
+p{
+    margin: 40px 0 40px 0;
+    font-size: large;
+}
