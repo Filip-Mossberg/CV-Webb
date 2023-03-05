@@ -1,0 +1,173 @@
+main{
+    width: 100%;
+    height: 100%;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+    background-color: #0D2239;
+    color: white;
+    box-sizing: 0 0 5px;
+    padding: 15px;
+    align-items: center;
+    margin: 0 1.5vw 10vh 1.5vw;
+    min-width: 430px;
+}
+
+.container h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    margin-left: 2vw;
+}
+
+.container p{
+    line-height: 1.4;
+    text-align: justify;
+}
+
+label{
+    display: inline-block;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#check, #check1, #check2, #check3, #check4, #check5{
+    display: none;
+}
+
+.read-more, .read-more1, .read-more2,
+.read-more3, .read-more4, .read-more5{
+    display: none;
+    margin-top: 5px;
+}
+
+#check:checked ~ .read-more{
+    display: block;
+}
+
+#check1:checked ~ .read-more1{
+    display: block;
+}
+
+#check2:checked ~ .read-more2{
+    display: block;
+}
+
+#check3:checked ~ .read-more3{
+    display: block;
+}
+
+#check4:checked ~ .read-more4{
+    display: block;
+}
+
+#check5:checked ~ .read-more5{
+    display: block;
+}
+
+#check:checked ~ label{
+    visibility: hidden;
+}
+
+#check:checked ~ label::after{
+    content: 'Show less';
+    display: block;
+    visibility: visible;
+}
+
+#check1:checked ~ label{
+    visibility: hidden;
+}
+
+#check1:checked ~ label:after{
+    content: 'Show less';
+    display: block;
+    visibility: visible;
+}
+
+#check2:checked ~ label{
+    visibility: hidden;
+}
+
+#check2:checked ~ label:after{
+    content: 'Show less';
+    display: block;
+    visibility: visible;
+}
+
+#check3:checked ~ label{
+    visibility: hidden;
+}
+
+#check3:checked ~ label:after{
+    content: 'Show less';
+    display: block;
+    visibility: visible;
+}
+
+#check4:checked ~ label{
+    visibility: hidden;
+}
+
+#check4:checked ~ label:after{
+    content: 'Show less';
+    display: block;
+    visibility: visible;
+}
+
+#check5:checked ~ label{
+    visibility: hidden;
+}
+
+#check5:checked ~ label:after{
+    content: 'Show less';
+    display: block;
+    visibility: visible;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D3373E;
+    width: 10vw;
+    height: 100px;
+    margin-bottom: 15px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.image img{
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    max-width: 80px;
+}
+
+.github{
+    color: #D3373E;
+}
+
+@media (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 30vw;
+        background-color: #0D2239;
+        color: white;
+        box-sizing: 0 0 5px;
+        padding: 15px;
+        align-items: center;
+        margin: 0 1.5vw 10vh 1.5vw;
+        min-width: 250px;
+    }
+}
