@@ -1,0 +1,70 @@
+{
+"AsideText" :[
+        {
+            "Title": "Education"
+        
+        },
+        {
+            "Title": "Ankarskolan",
+            "StudyWork": "Högstadiet",
+            "Date": "2017-2020"
+        },
+        {
+            "Title": "LBS",
+            "StudyWork": "Systemutveckling",
+            "Date": "2020-2022"
+        },
+        {
+            "Title": "Campus",
+            "StudyWork": "Systemutveckling.NET",
+            "Date": "2022-Now"
+        },
+        {
+            "Title": "Work"
+        },
+        {
+            "Title": "Sommarvärd",
+            "StudyWork": "Varbergs Kommun",
+            "Date": "2021"
+        },
+        {
+            "Title": "Miljöarbetare",
+            "StudyWork": "VIVAB",
+            "Date": "2022-Now"
+        }
+    ],
+"AsideContact" :[
+        {
+            "Contact": "Contact"
+        },
+        {
+            "Contact": "073-734 65 66"
+        },
+        {
+            "Contact": "filip.mossberg@gmail.com"
+        },
+        {
+            "Contact": "Mastvägen 21"
+        }
+    ],
+"MainContent" :[
+    {
+        "Title": "Filip Mossberg"
+    },
+    {
+        "Title": "About me",
+        "Text": "This year I'm continuing my jurney and now I study systemdevelopment.NET at Campus Varberg, located in central Varberg. The education contains courses like Development with C#, Agile system development in team, Object oriented programming, Database development and database administration, and Web development witch is our current course, with more to come!"
+    },
+    {
+        "Title": "Work Experience"
+    },
+    {
+        "Title": "2021",
+        "Text": "I previously had employment with Varbergs Fastighets AB where I worked as a summer host within the tourism industry. The work contained of cleaing Varbergs five parking garages along with answearing questions regarding parking. Upon all this we had multiple other tasks provided by both Varbergs Fastighets AB and Varbergs Kommun where we got to various tasks that where needed to be done all around Varberg center."
+    },
+    {
+        "Title": "2022-Now",
+        "Text": "I currently work for VIVAB as an Environmental worker. I get to do a variety of tasks but the main task I do is to help customers with answearing their questions regarding where to throw their stuff. Many other tasks I get to do is: clean the ramp, replace styrofoam, clean and mantain the pledge machine or do any other task that might come up. If there is customers there is always stuff to do!"
+    }
+]
+}
