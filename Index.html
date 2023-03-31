@@ -14,7 +14,15 @@
 </head>
 <body>
     <header>
-        <div class="banner" id="banner">
+        <div class="banner">
+            <div class="ModalPopup">
+                <button class="close">
+                    <i onclick="CloseModalPopup()" class="fa-solid fa-x"></i>
+                </button>
+                <h1 class="secretTitle">DID YOU KNOW?</h1>
+                <h3 class="secretText">That it's easter soon?!?!</h3>
+                <div class="easterImage"></div>
+            </div>
             <div class="profile-box">
                 <image class="profile-picture" onclick="changeBackground()" src="Images/ProfileImage.png"></image>
             </div>
@@ -29,7 +37,7 @@
             </ul>
         </nav>
     </header>
-    <main id="main">
+    <main id="main" style="background-color: white;">
         <div class="text-area">
             <p class="main-title">About</p>
             <div class="line-1"></div>

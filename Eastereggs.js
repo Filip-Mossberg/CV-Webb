@@ -1,16 +1,17 @@
 function changeBackground (){
-    (document.getElementById('main').style.backgroundColor === "white") ? document.getElementById('main').style.backgroundColor = "#D5D1D2":
+    console.log(document.getElementById('main').style.backgroundColor);
+    (document.getElementById('main').style.backgroundColor == "white") ? document.getElementById('main').style.backgroundColor = "#D5D1D2":
     document.getElementById('main').style.backgroundColor = "white";
-
-    return console.log("number");
 }
+
+
 
 const keyCode = ['4', '5', 'g', 'h']
 let keyBindCheck = [];
 window.addEventListener('keydown', (event) => {
-    let pressedKey = event.key;4
+    let pressedKey = event.key;
 
-    if (pressedKey === "4" || pressedKey === "5" || pressedKey === "g" || pressedKey === "h"){
+    if (pressedKey == '4' || pressedKey == '5' || pressedKey == 'g' || pressedKey == 'h'){
         keyBindCheck.push(pressedKey);
 
         for(let i = 0; i < keyBindCheck.length; i++ ){
@@ -19,8 +20,9 @@ window.addEventListener('keydown', (event) => {
             }
         }
         if(keyBindCheck.length == 4){
-            HiddenModalPopup();
+            ShowModalPopup();
         }
+        console.log(keyBindCheck.length);
         return console.log(keyBindCheck);
     }
     else{
@@ -30,31 +32,12 @@ window.addEventListener('keydown', (event) => {
     return;
 })
 
+function ShowModalPopup() {
+    document.getElementsByClassName('ModalPopup')[0].style.display = "flex";
+    return;
+}
 
-function HiddenModalPopup() {
-
-    const container = document.createElement('div');
-    container.className = "ModalPopup";
-
-    const closeTab = document.createElement('button')
-    closeTab.className = "close";
-
-    const exit = document.createElement('i')
-    exit.className = "fa-solid fa-x";
-
-    const title = document.createElement('h1');
-    title.textContent = "DID YOU KNOW?";
-    title.className = "secretTitle";
-    
-    const text = document.createElement('p');
-    text.textContent = "That it's easter soon?!?!"
-    text.className = "secretText"
-
-    //document.getElementById("banner").appendChild(container);
-    //container.appendChild(closeTab);
-    //closeTab.appendChild(exit);
-    //document.getElementById("banner").appendChild(title);
-    //document.getElementById("banner").appendChild(text);
-
-    return container;
+function CloseModalPopup() {
+    document.getElementsByClassName('ModalPopup')[0].style.display = "none";
+    return;
 }

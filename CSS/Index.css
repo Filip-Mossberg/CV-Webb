@@ -71,65 +71,6 @@ p{
     padding-bottom: 4vh;
 }
 
-.secret{
-    width: 50px;
-    height: 50px;
-    background-color: transparent;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-}
-
-.ModalPopup{
-    width: 50%;
-    height: 40vh;
-    background-color: #0D2239;
-    border: 3px solid #D3373E;
-    position: absolute;
-    top: 10%;
-    color: white;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.secretTitle {
-    color: white;
-    position: absolute;
-    top: 15vh;
-    font-size: 3vw;
-}
-
-.secretText{
-    color: white;
-    position: absolute;
-    top: 30vh;
-    font-size: 2vw;
-}
-
-.close{
-    width: 2vw;
-    height: 2vw;
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-}
-
-.fa-solid.fa-x {
-    font-size: large;
-    color: white;
-}
-
-.fa-solid.fa-x:hover{
-    color: #D3373E;
-    border: 2px;
-}
-
-
-
 @media (max-width: 1300px) {
     .text-area{
         width: 80%;
